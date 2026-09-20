@@ -31,12 +31,17 @@ I also configured `gpg.ssh.allowedSignersFile` as `~/.config/git/allowed_signers
 The signed commit used for this submission is:
 
 ```text
-The final signed commit output will be added after the rewritten history is pushed.
+commit 41767f42104f679faa72634884935bc127d1130b
+Good "git" signature for ufamail.com2@gmail.com with ED25519 key SHA256:<redacted fingerprint>
+Author: shnupel <ufamail.com2@gmail.com>
+Date:   Sun Sep 20 14:48:50 2026 +0300
+
+    feat(lab3): signed commits and gitleaks pre-commit hook
 ```
 
 A signed commit makes the author claim stronger. Without signing, somebody can set my name and email in the Git configuration and create a commit that looks like it came from me. With SSH signing, GitHub can check that the commit was signed by the registered key and show the **Verified** badge. The badge does not prove that the code is safe, but it gives evidence about which key created the commit and helps with repudiation investigations.
 
-GitHub commit link: to be added after the rewritten branch is pushed.
+GitHub commit link: https://github.com/Shnupel/DevSecOps-Intro/commit/41767f42104f679faa72634884935bc127d1130b
 
 PR creation link: https://github.com/Shnupel/DevSecOps-Intro/pull/new/feature/lab3
 

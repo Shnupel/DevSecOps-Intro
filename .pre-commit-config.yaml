@@ -10,3 +10,4 @@ repos:
       - id: detect-private-key
         exclude: ^labs/lab6/vulnerable-iac/ansible/configure\.yml$
       - id: check-added-large-files
+        exclude: ^labs/lab4/(juice-shop\.cdx\.json|juice-shop-attestation\.json)$
